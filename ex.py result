@@ -1,0 +1,14 @@
+================================ RESTART ================================
+>>> 
+hello world, i am xue, Current time: 1374291572.08
+>>> Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 551, in __bootstrap_inner
+    self.run()
+  File "C:\Python27\lib\threading.py", line 755, in run
+    self.function(*self.args, **self.kwargs)
+TypeError: 'NoneType' object is not callable
+ 
+ 
+注：其中“hello world, i am xue, Current time: 1374291572.08”在第一时间输出，
+然后3秒钟之后输出剩余的出错信息
